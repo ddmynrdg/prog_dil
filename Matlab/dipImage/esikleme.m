@@ -18,6 +18,5 @@ for i = 1:x
         end
     end
 end
-
 figure();
 T2 = (Mop + Map) / 2;
