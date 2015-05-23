@@ -1,18 +1,19 @@
 clc
-clear all
+clear all;
+close all;
 
 I = imread('cameraman.tif');
 bw = im2bw(I);
-subplot(1,3,1); imshow(I);
-subplot(1,3,2); imshow(bw);
+subplot(1, 2, 1); imshow(I);
+subplot(1, 2, 2); imshow(bw);
 
 %%%%%tresholding%%%%
 T = 0.5;
-[x,y] = size(bw);
+[x, y] = size(bw);
 for i = 1:x
     for j = 1:y
-        if bw(x,y) >= T
-            Mop= Mop + 1;
+        if bw(x, y) >= T
+            Mop = Mop + 1;
         else
             Map = Map + 1;
         end
