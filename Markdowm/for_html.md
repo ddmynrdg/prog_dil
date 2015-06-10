@@ -1,10 +1,10 @@
 <!-- Başlıklar -->
-# Bu bir <h1>
-## Bu bir <h2>
-### Bu bir <h3>
-#### Bu bir <h4>
-##### Bu bir <h5>
-###### Bu bir <h6>
+# Bu bir başlık <h1>
+## Bu bir alt başlık <h2>
+### Bu bir alt başlık <h3>
+#### Bu bir alt başlık <h4>
+##### Bu bir alt başlık <h5>
+###### Bu bir alt başlık <h6>
 
 <!-- Markdown ayrıca h1 ve h2 için 2 alternatif yol daha taşır -->
 Bu bir h1
